@@ -284,6 +284,16 @@ Once Git Credential Manager is installed you can set it up for use with WSL. Ope
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
 ```
 
+If you ever recieve the following error message:
+```
+/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe store: 1: /mnt/c/Program Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe: not found
+```
+
+Try using the following command:
+```
+git config --global credential.helper store
+```
+
 ## 💤 Zsh [^7]
 
  Z shell works almost identically to the standard BASH shell found on default Linux installs. What makes it different is its support for plugins and themes, along with some extra features like spelling correction and recursive path expansion. It's time to throw BASH in the trash!
