@@ -542,6 +542,14 @@ Use the search bar from the Start menu and type in `powershell`. A link to Run a
 <img src="images/powershell.png" alt="Search powershell from the start menu" width="800px" />
 </p>
 
+#### Option 4
+
+Windows Terminal added a new feature where you can launch a PowerShell/Command Prompt profile in an Admin terminal automatically. In the Windows Terminal settings, scroll down to your desired profile and then toggle the `Run this profile as Administrator` switch. Now you can skip all the steps above, and the terminal will always launch as admin.
+
+<p align="center">
+<img src="images/new-admin.jpg" alt="Automatically launch an admin windows terminal profile" width="800px" />
+</p>
+
 ### Installing Chocolatey
 
 1. Open an administrative PowerShell terminal
